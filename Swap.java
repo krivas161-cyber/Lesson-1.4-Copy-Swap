@@ -1,7 +1,7 @@
 /*
 AP CS A
-Name: Ms. Gee
-Date: Aug 22, 2025
+Name: Katherine Rivas
+Date: Aug 27, 2025
 Teacher: Ms. Gee
 Assignment: Lesson 1.4 Notes
 Description:
@@ -22,7 +22,10 @@ public class Swap {
         System.out.println("Before swap y: " + y);
         
         System.out.println("Swapping...");
-        
+
+       int temp = y;
+       y = x;
+       x = temp;
         /* to be implemented */
         
         System.out.println("After swap x: " + x);
